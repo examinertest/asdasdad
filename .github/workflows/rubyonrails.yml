@@ -7,6 +7,6 @@ jobs:
       RAILS_ENV: test
       DATABASE_URL: "db/test.sqlite3"
       GITHUB_TOKEN: ${{ secrets.token }}
-    steps:
+    steps:sssss
       - name: Load rspec repo
         run: git clone https://username:$GITHUB_TOKEN@github.com/examinertest/testrspecs.git
