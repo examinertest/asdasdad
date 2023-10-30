@@ -3,7 +3,7 @@ on: workflow_dispatch
 jobs:
   test:
     runs-on: ubuntu-latest
-    envы:
+    env:
       RAILS_ENV: test
       DATABASE_URL: "db/test.sqlite3"
       GITHUB_TOKEN: ${{ secrets.token }}
